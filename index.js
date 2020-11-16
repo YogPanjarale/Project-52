@@ -21,8 +21,12 @@ function createItem(){
         "Escaped domestic pigeons have increased the populations of feral pigeons around the world",
         "https://origami.me/pigeon/",
         "Images/pigeon.png")
-        var dog=Template.card('dog',"dog is an interesting animal","it is 1st line","it is 2nd line","it is 3rd line","#","Images/panda.png")
-        var arr=[chameleon,camel,peigion,dog]
+        var panda=Template.card('Panda',"Panda is an interesting animal",
+         "The giant panda, also known as the panda bear or simply the panda",
+         " is a bear native to south central China",
+         "It is characterised by large, black patches around its eyes, over the ears, and across its round body",
+         "https://origami.me/panda/","Images/panda.png")
+        var arr=[chameleon,camel,peigion,panda]
         arr=shuffle(arr)
         var line="";
         arr.forEach((e)=>{
